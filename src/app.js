@@ -3,7 +3,7 @@ import express from "express"
 const app = express();
 
 app.get('/',(req,res,next)=>{
-    res.send("CICD completed!")
+    res.send("Hey, CICD completed!")
 })
 app.listen("4000",()=>{
     console.log("Server start port on 4000" )
